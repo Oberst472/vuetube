@@ -1,20 +1,20 @@
 <template>
-  <div id="app">
-    <header>
-      <SectionHeader/>
-    </header>
-  </div>
+    <div id="app">
+        <router-view/>
+    </div>
 </template>
 
 <script>
-import SectionHeader from '@/components/sections/header'
 
-export default {
-  components: {
-    SectionHeader
-  }
-}
+    export default {
+        components: {
+        }
+    }
 </script>
 
 <style lang="scss">
+    #app {
+        min-height: 100%;
+        display: flex;
+    }
 </style>
