@@ -4,7 +4,7 @@
         <div class="page-main__previews">
             <div class="page-main__previews-grid">
                 <div class="page-main__previews-row">
-                    <BlockThumb class="page-main__previews-item" v-for="(item, index) in thumbs" :key="index" :info="item">
+                    <BlockThumb class="page-main__previews-item" v-for="(item, index) in thumbs" :key="index" :info="item" hide-title>
                         {{ item }}
                     </BlockThumb>
                 </div>

@@ -24,23 +24,21 @@
             }
         },
         watch: {
-            // eslint-disable-next-line no-unused-vars
             value(val) {
                 !val.length ? this.isActive = false : this.isActive = true
-
-                let mas = []
+                let arr = []
                 items.forEach(item => {
-                    mas.push(...item.items, ...item['subcats'])
+                    arr.push(...item.items, ...item['subcats'])
                 })
-                let bob = mas.flat()
-                let lol2 = bob.filter(item => !item.items)
-                bob.forEach(item => {
+                let arr2 = arr.flat()
+                let arr1 = arr2.filter(item => !item.items)
+                arr2.forEach(item => {
                     if (item.items) {
-                        lol2.push(item.items)
+                        arr1.push(item.items)
                     }
                 })
-                let lol3 = lol2.flat()
-                this.results = lol3.filter(item => item.title.toLowerCase().indexOf(val.toLowerCase()) > -1)
+                let arr3 = arr1.flat()
+                this.results = arr3.filter(item => item.title.toLowerCase().indexOf(val.toLowerCase()) > -1)
             },
             $route: {
                 handler() {
