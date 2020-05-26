@@ -32,22 +32,20 @@ export default new VueRouter({
                     },
                     meta: {
                         title: `Детальная`
-                    },
-                    children: [
-                        {
-                            path: ':videoid',
-                            name: 'video',
-                            components: {
-                                header: require('./components/sections/header').default,
-                                footer: require('./components/sections/footer').default,
-                                default: require('./pages/detail').default
-                            },
-                            meta: {
-                                title: `Детальное видео`
-                            }
-                        }
-                    ]
+                    }
 
+                },
+                {
+                    path: ':id/:videoid',
+                    name: 'video',
+                    components: {
+                        header: require('./components/sections/header').default,
+                        footer: require('./components/sections/footer').default,
+                        default: require('./pages/detail').default
+                    },
+                    meta: {
+                        title: `Детальное видео`
+                    }
                 }
             ]
         }

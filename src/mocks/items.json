@@ -8,18 +8,21 @@
                 "id": "cat-1-1",
                 "title": "Вестерн 1",
                 "translate_title": "vestern-1",
+                "cat_title": "vesterny",
                 "link": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/qOq9NeXZP94\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
             },
             {
                 "id": "cat-2-1",
                 "title": "Вестерн 2",
                 "translate_title": "vestern-2",
+                "cat_title": "vesterny",
                 "link": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/qOq9NeXZP94\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
             },
             {
                 "id": "cat-3-1",
                 "title": "Вестерн 3",
                 "translate_title": "vestern-3",
+                "cat_title": "vesterny",
                 "link": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/qOq9NeXZP94\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
             }
         ],
@@ -40,18 +43,21 @@
                         "id": "cat-2-1-1",
                         "title": "Боевик со Сталоне 1",
                         "translate_title": "boevik-so-stalone-1",
+                        "cat_title": "boeviki-so-stalone",
                         "link": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/qOq9NeXZP94\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
                     },
                     {
                         "id": "cat-2-1-2",
                         "title": "Боевик со Сталоне 2",
                         "translate_title": "boevik-so-stalone-2",
+                        "cat_title": "boeviki-so-stalone",
                         "link": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/qOq9NeXZP94\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
                     },
                     {
                         "id": "cat-2-1-3",
                         "title": "Боевик со Сталоне 3",
                         "translate_title": "boevik-so-stalone-3",
+                        "cat_title": "boeviki-so-stalone",
                         "link": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/qOq9NeXZP94\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
                     }
                 ]
@@ -65,24 +71,28 @@
                         "id": "cat-2-2-1",
                         "title": "Боевик со шварцем 1>",
                         "translate_title": "boevik-so-shvarcem-1",
+                        "cat_title": "boeviki-so-shvarcem",
                         "link": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/qOq9NeXZP94\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
                     },
                     {
                         "id": "cat-2-2-2",
                         "title": "Боевик со шварцем 2>",
                         "translate_title": "boevik-so-shvarcem-2",
+                        "cat_title": "boeviki-so-shvarcem",
                         "link": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/qOq9NeXZP94\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
                     },
                     {
                         "id": "cat-2-2-3",
                         "title": "Боевик со шварцем 3>",
                         "translate_title": "boevik-so-shvarcem-3",
+                        "cat_title": "boeviki-so-shvarcem",
                         "link": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/qOq9NeXZP94\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
                     },
                     {
                         "id": "cat-2-2-4",
                         "title": "Боевик со шварцем 4>",
                         "translate_title": "boevik-so-shvarcem-4",
+                        "cat_title": "boeviki-so-shvarcem",
                         "link": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/qOq9NeXZP94\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
                     }
                 ]
@@ -104,18 +114,21 @@
                         "id": "cat-3-1-1",
                         "title": "Фантастика 1",
                         "translate_title": "fantastika-1",
+                        "cat_title": "kosmicheskaya",
                         "link": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/qOq9NeXZP94\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
                     },
                     {
                         "id": "cat-3-1-2",
                         "title": "Фантастика 2",
                         "translate_title": "fantastika-2",
+                        "cat_title": "kosmicheskaya",
                         "link": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/qOq9NeXZP94\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
                     },
                     {
                         "id": "cat-3-1-3",
                         "title": "Фантастика 3",
                         "translate_title": "fantastika-3",
+                        "cat_title": "kosmicheskaya",
                         "link": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/qOq9NeXZP94\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
                     }
                 ]
@@ -129,12 +142,14 @@
                         "id": "cat-3-2-1",
                         "title": "Боевая фантастика 1",
                         "translate_title": "boevaya-fantastika-1",
+                        "cat_title": "boevaya",
                         "link": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/qOq9NeXZP94\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
                     },
                     {
                         "id": "cat-3-2-2",
                         "title": "Боевая фантастика 2",
                         "translate_title": "boevaya-fantastika-2",
+                        "cat_title": "boevaya",
                         "link": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/qOq9NeXZP94\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
                     }
                 ]
@@ -148,12 +163,14 @@
                         "id": "cat-3-3-1",
                         "title": "Альтернативная фантастика 1",
                         "translate_title": "alternativnaya-fantastika-1",
+                        "cat_title": "alternativnaya",
                         "link": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/qOq9NeXZP94\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
                     },
                     {
                         "id": "cat-3-3-2",
                         "title": "Альтернативная фантастика 2",
                         "translate_title": "alternativnaya-fantastika-2",
+                        "cat_title": "alternativnaya",
                         "link": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/qOq9NeXZP94\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
                     }
                 ]

@@ -37,7 +37,12 @@ import SectionAside from '@/components/sections/aside'
         width: 100%;
         display: flex;
         flex-direction: column;
-        &__header {}
+        &__header {
+            position: sticky;
+            top: 0;
+            left: 0;
+            z-index: 100;
+        }
         &__main {
             flex-grow: 1;
             box-sizing: border-box;

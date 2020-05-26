@@ -3,16 +3,13 @@
         <h1 class="page-category__title">
             {{ title }}
         </h1>
-        <transition name="fade">
-            <div class="page-category__previews" v-if="$route.name === 'category'">
-                <div class="page-category__previews-grid">
-                    <div class="page-category__previews-row">
-                        <BlockThumb class="page-category__previews-item" v-for="item in items" :key="item.id" :info="item"/>
-                    </div>
+        <div class="page-category__previews">
+            <div class="page-category__previews-grid">
+                <div class="page-category__previews-row">
+                    <BlockThumb class="page-category__previews-item" v-for="item in items" :key="item.id" :info="item"/>
                 </div>
             </div>
-            <router-view v-else/>
-        </transition>
+        </div>
     </div>
 </template>
 
@@ -86,6 +83,6 @@
         transition: opacity .5s;
     }
     .fade-enter, .fade-leave-to {
-        opacity: 0;
-    }
+         opacity: 0;
+     }
 </style>

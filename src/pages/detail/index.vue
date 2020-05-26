@@ -1,6 +1,7 @@
 <template>
-    <div>
-        <BlockThumb class="page-category__previews-item" :info="info" hide-title/>
+    <div class="page-detail">
+        <h1 class="page-detail__title">{{ info.title }}</h1>
+        <BlockThumb class="page-detail__video" :info="info" hide-title/>
     </div>
 </template>
 
@@ -14,6 +15,15 @@
         data() {
             return {
                 info: {}
+            }
+        },
+        watch: {
+            $route: {
+                handler(val) {
+                    console.log(66)
+                    this.info = this.$route.params.info
+                    console.log(val)
+                }
             }
         },
         mounted() {
@@ -34,12 +44,19 @@
                 }
             })
             this.info = info.items.find(item => item['translate_title'] === videoId)
-            // this.items = info.items
-            // this.title = info.title
         }
     }
 </script>
 
-<style scoped lang="">
+<style scoped lang="scss">
+.page-detail {
+    display: flex;
+    flex-direction: column;
+    &__title {
 
+    }
+    &__video {
+        margin-top: 45px;
+    }
+}
 </style>
