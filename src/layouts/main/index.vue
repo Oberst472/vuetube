@@ -10,7 +10,9 @@
                         <SectionAside/>
                     </aside>
                     <section class="layout__content">
-                        <router-view/>
+                        <transition name="fade" mode="out-in">
+                            <router-view/>
+                        </transition>
                     </section>
                 </div>
             </div>

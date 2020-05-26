@@ -7,7 +7,7 @@
         <UiTransition>
             <ul class="block-list-item__sublist" v-if="isActive">
                 <router-link
-                    :to="{name: 'category', params: {id: item['translate_title'], info: item.items}}"
+                    :to="{name: 'category', params: {id: item['translate_title'], info: item}}"
                     class="block-list-item__subitem"
                     v-for="(item, index) in info['subcats']"
                     :key="index"
@@ -40,7 +40,7 @@
         methods: {
             click() {
                 if (this.tag === 'router-link') {
-                    this.$router.push({name: 'category', params: {id: this.info['translate_title'], info: this.info.items}})
+                    this.$router.push({name: 'category', params: {id: this.info['translate_title'], info: this.info}})
                 }
                 else {
                     this.isActive = true
@@ -60,6 +60,7 @@
             color: $color--text;
             transition-duration: 0.3s;
             cursor: pointer;
+            font-size: 14px;
             &:hover {
                 background-color: #fff;
             }
@@ -79,6 +80,7 @@
             padding: 15px;
             text-align: left;
             color: $color--positive;
+            font-size: 14px;
             &:hover {
                 background-color: #fff;
             }

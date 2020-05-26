@@ -3,7 +3,7 @@
         <div class="wrap">
             <div class="section-header__content">
                 <router-link class="section-header__logo" :to="{name: 'main'}">
-                    <img alt="" class="" src="@/assets/images/logo.svg">
+                    <img alt="" class="" src="@/assets/images/logo.png">
                 </router-link>
                 <div class="section-header__search">
                     <BlockSearch/>
